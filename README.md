@@ -9,7 +9,7 @@ Aung Si and Paul Justafort.
 
 ## **Overview**
 
-
+This project aims to predict seasonal flu vaccine uptake using data from the National 2009 H1N1 Flu Survey (NHFS), conducted during the 2009 flu season. Our goal is to develop an accurate predictive model based on specific parameters that can accurately predict whether individuals will take the seasonal flu vaccine and provide recommendations to enhance seasonal flu vaccine uptake based on the insights gained from our analysis. By doing so, we hope to contribute to improving vaccination rates and understanding vaccination behavior, ultimately supporting public health initiatives.
 
 ## **Business Problem**
 Vaccines have long been a cornerstone of public health, shielding individuals and entire communities from a wide array of infectious diseases. Among these, the ongoing efforts to immunize against seasonal influenza stand out as a vital and complex undertaking. Unlike specific pandemic strains such as the 2009 H1N1 "swine flu," seasonal flu is a persistent and annually recurring challenge, necessitating vigilance and adaptation by medical professionals every year. Seasonal influenza vaccines are developed and distributed on an annual basis to combat the most common flu strains predicted to circulate during the upcoming flu season. Scientists and researchers analyze global flu trends, collecting samples and data to determine which strains are most likely to pose a threat. The composition of the seasonal flu vaccine is then tailored each year based on these predictions, making it a unique and dynamic tool in the fight against influenza.
