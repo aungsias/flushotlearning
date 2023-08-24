@@ -42,7 +42,8 @@ For our exploration we're given three CSV's:
 ### **Model performance metrics**
 Our analysis involved the evaluation of multiple machine-learning models using several essential performance metrics. These metrics include Test Recall, Train Recall, Test F1, Train F1, Test ROC AUC, and Train ROC AUC. Among the models, "Random Forest (New Features)" and "Tuned Random Forest (New Features)" consistently displayed the highest performance, excelling in Test Recall and achieving a strong Test F1-score. These metrics highlight the potential of these models in effectively identifying individuals likely to take the seasonal flu vaccine. Additionally, both Random Forest models demonstrated robust training data fit, as evident from their high Train ROC AUC scores. Further details and insights can be derived from these metrics to guide our ongoing analysis.
 
-![Recall Comp](https://github.com/pmjustafort/flushotlearning/assets/137816262/268688a7-798b-4ef1-b054-c08e8b3a02cd)
+![Model Recall Score Comparison](https://github.com/pmjustafort/flushotlearning/assets/137816262/f7e449fd-70d4-4234-896e-0d479a9ad62f)
+
 
 ### **Model Comparison**
 In our comprehensive model evaluation, we rigorously assessed the performance of various machine learning models using a range of key metrics, including Test Recall, Train Recall, Test F1, Train F1, Test ROC AUC, and Train ROC AUC. Among this array of models, two consistently stood out as top performers: "Random Forest (New Features)" and "Tuned Random Forest (New Features)."
@@ -51,10 +52,13 @@ Notably, "Tuned Random Forest (New Features)" attained the highest Test F1-score
 A significant contributing factor to the outstanding performance of these models was the meticulous application of feature engineering and hyperparameter tuning. These techniques allowed the models to capture intricate patterns within the data, resulting in improved accuracy in vaccine uptake predictions.
 
 
-![Random Comp](https://github.com/pmjustafort/flushotlearning/assets/137816262/6a3fe5c2-c7b4-452c-80fe-09a9163c66c2)
+![Random Model  Comparison](https://github.com/pmjustafort/flushotlearning/assets/137816262/c95b4871-8bd9-4fbc-bdd0-2f5fbb6ba119)
 
 
-![Random Tuned New Features](https://github.com/pmjustafort/flushotlearning/assets/137816262/76c2e49b-feb4-4726-ac3b-7f7abbce3ddc)
+
+![Random Tuned New Features (SelectedModel)](https://github.com/pmjustafort/flushotlearning/assets/137816262/c4792e57-aed6-4b33-abd1-3d178660f728)
+
+
 
 
 ### **Feature Importance**
@@ -74,7 +78,7 @@ It's worth noting that there is an unidentified sector of activities that appear
 
 ## **Conclusions And Recommendations**
 
-Our thorough investigation into the prediction of seasonal flu vaccine uptake has showcased the remarkable effectiveness of machine learning models. Through rigorous evaluation, we identified "Tuned Random Forest (New Features)" as the indisputable frontrunner among the models. This model consistently delivered outstanding results, boasting the highest Test Recall at 0.729 and the highest Test F1-score at 0.754, emphasizing its robust predictive capabilities. Additionally, its Test ROC AUC of 0.851 underscores its ability to effectively distinguish between vaccine takers and non-takers.
+Our thorough investigation into the prediction of seasonal flu vaccine uptake has showcased the remarkable effectiveness of machine-learning models. Through rigorous evaluation, we identified "Tuned Random Forest (New Features)" as the indisputable frontrunner among the models. This model consistently delivered outstanding results, boasting the highest Test Recall at 0.729 and the highest Test F1-score at 0.754, emphasizing its robust predictive capabilities. Additionally, its Test ROC AUC of 0.851 underscores its ability to effectively distinguish between vaccine takers and non-takers.
 
 Furthermore, our analysis has shed light on the pivotal roles played by specific feature categories. Features associated with individual behaviors, such as behavioral_avoidance and behavioral_face_mask, emerged as paramount drivers, along with opinion-based variables, notably opinion_h1n1_risk and opinion_seas_vacc_effective. The presence of doctor recommendations (doctor_recc_h1n1) and educational attainment (education) were also prominent factors, reaffirming their profound influence on vaccination decisions.
 
