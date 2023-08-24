@@ -19,6 +19,7 @@ In the United States, a coordinated effort involving the government, healthcare 
 ## **Data**
 ![image](https://github.com/pmjustafort/flushotlearning/assets/137816262/4cec3603-2fd3-425a-ba7e-f6f7fafdfd83) 
 
+
 ![image](https://github.com/pmjustafort/flushotlearning/assets/137816262/1ca50a0c-d008-4eb8-b0be-29b251f37c85)
 
 
@@ -52,7 +53,9 @@ Notably, "Tuned Random Forest (New Features)" attained the highest Test F1-score
 A significant contributing factor to the outstanding performance of these models was the meticulous application of feature engineering and hyperparameter tuning. These techniques allowed the models to capture intricate patterns within the data, resulting in improved accuracy in vaccine uptake predictions.
 
 
+
 ![Random Model  Comparison](https://github.com/pmjustafort/flushotlearning/assets/137816262/c95b4871-8bd9-4fbc-bdd0-2f5fbb6ba119)
+
 
 
 
